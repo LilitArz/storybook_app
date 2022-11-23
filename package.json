@@ -1,7 +1,10 @@
 {
-  "name": "cra-ts",
+  "name": "am_lib",
   "version": "0.1.0",
-  "private": true,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -20,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "publish": "./scripts/publish.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,7 +44,10 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@storybook/addon-docs": "6.0.0-beta.25",
-    "@storybook/react": "6.0.0-beta.25",
+    "@storybook/reactcurl ": "6.0.0-beta.25",
     "babel-loader": "^8.1.0"
   }
 }
+
+
+
